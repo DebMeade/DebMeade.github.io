@@ -1,0 +1,13 @@
+.jumbotron {
+    background: url("../images/WireframesImages/horses2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 175px;
+}
+
+.display-4, .lead {
+    color:white;
+}
+
