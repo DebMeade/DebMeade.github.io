@@ -1,0 +1,11 @@
+.jumbotron {
+    background: url("../images/Contact.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.display-4, .lead {
+    color:black;
+}
