@@ -1,6 +1,8 @@
 .jumbotron {
-    background: url("../images/AboutImages/abara1.png");
+    background: url("../images/AboutImages/abara3.png");
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .auth-image {
