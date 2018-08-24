@@ -11,6 +11,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
     .then(function(myJson) {
         console.log(myJson);
         $(".weatherContainer").text(`${myJson.name} current temperature ${myJson.main.temp}`);
+        $(".weatherContainer").append($("<span>&#x2109</span>"))
     })
     .catch(function(error) {
         console.error(error);

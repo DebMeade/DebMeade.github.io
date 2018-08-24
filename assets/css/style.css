@@ -19,8 +19,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 105px;
+    width: 105px;
     background-color: #0d0d0d;
     border-radius: 50%;
 }
@@ -48,10 +48,8 @@
     text-align: center;
 }
 
-.space {
-    margin-left:100px;
-}
-h1 {
+
+h2 {
     text-align: center;
     font-size: 28px;
 }

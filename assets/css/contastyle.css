@@ -9,3 +9,21 @@
 .display-4, .lead {
     color:black;
 }
+
+.mailto {
+    display: block;
+    width: 100px;
+    height: 20px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    clear: both;
+    background-color: black;
+ }
