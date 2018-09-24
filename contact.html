@@ -46,14 +46,15 @@
                                 <div>
                                     <h3>Contact</h3>
                                 </div>
-                                <!-- <form>
+                                <form id="emailForm" action="https://mailthis.to/DebbieMeade"
+                                method="POST" encType="multipart/form-data">
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Name</label>
-                                        <input type="text" class="form-control" id="name-input" placeholder="">
+                                        <input id="name" type="text" class="form-control" name="name" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Email</label>
-                                        <input type="email" class="form-control" id="email-input" placeholder="">
+                                        <input id="youremail" name="_replyto" type="email" class="form-control" id="email-input" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Website</label>
@@ -61,20 +62,21 @@
                                     </div>
                                     <div class="form-group">
                                             <label for="exampleFormControlTextarea1">Comments</label>
-                                            <textarea class="form-control" id="comment-input" rows="3"></textarea>
-                                          </div> -->
-                                        <br>          
-                                        <form id="emailForm" action="https://mailthis.to/DebbieMeade"
-                                        method="POST" encType="multipart/form-data">
-                                        <input id="name" type="text" name="name" placeholder="Your name">
-                                        <input id="youremail" type="email" name="_replyto" placeholder="Your email">
-                                        <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
+                                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                                          </div>
+                                        <br>    
+                                              
+                                        <!-- <form id="emailForm" action="https://mailthis.to/DebbieMeade"
+                                        method="POST" encType="multipart/form-data"> -->
+                                        <!-- <input id="name" type="text" name="name" placeholder="Your name"> -->
+                                        <!-- <input id="youremail" type="email" name="_replyto" placeholder="Your email"> -->
+                                        <!-- <textarea id="message" name="message" placeholder="Enter your message here"></textarea> -->
                                         <!-- <input type="file" name="file" placeholder="Attachments (optional)"> -->
                                         <!-- <input type="hidden" name="_subject" value="Contact form submitted"> -->
                                         <!-- <input type="hidden" name="_after" value="https://myhomepage.net/"> -->
                                         <input type="hidden" name="_honeypot" value="">
                                         <!-- <input type="hidden" name="_confirmation" value=""> -->
-                                        <input type="submit" value="Send">
+                                        <input type="submit" value="Send" class="btn btn-outline-dark">
                                     </form>
                                         <!-- <a href="mailto:dkmeade@gmail.com">
                                         <button type="submit" id="submit" class="btn btn-primary">Submit</button> -->

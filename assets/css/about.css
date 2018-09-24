@@ -1,8 +1,18 @@
-.jumbotron {
+/* .jumbotron {
     background: url("../images/AboutImages/abara3.png");
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
+} */
+
+.jumbotron {
+  background: url("../images/TrainImg.png");
+  text-align: center;
+}
+
+.lead {
+  font-weight: 800px;
+  color: darkslategray;
 }
 
 .auth-image {

@@ -1,6 +1,16 @@
-.jumbotron {
+/* .jumbotron {
     background: url("../images/WebDevImages/header3.png");
     text-align: center;
+} */
+
+.jumbotron {
+  background: url("../images/TrainImg.png");
+  text-align: center;
+}
+
+.lead {
+  font-weight: 800px;
+  color: darkslategray;
 }
 
 
