@@ -48,6 +48,15 @@
     text-align: center;
 }
 
+.skills {
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+}
+h3 {
+  margin-left: 10px;
+}
+
 
 h2 {
     text-align: center;
