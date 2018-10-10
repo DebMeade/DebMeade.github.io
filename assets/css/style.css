@@ -37,9 +37,9 @@
 /* .nav {
     background-color:#f7f7f9;
 } */
-.weatherContainer {
+/* .weatherContainer {
     
-}
+} */
 
 .webDevLinkContainer {
     display: flex;
@@ -77,3 +77,7 @@ h2 {
  span {
     color: #919aa1;
  }
+
+.thumbnail:hover {
+  
+}
